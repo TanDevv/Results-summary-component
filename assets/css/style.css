@@ -96,7 +96,7 @@ select {
   --clr-neutral-dark-gray-blue: #303b5a;
   --clr-neutral-dark-gray-blue-rgb: 48, 59, 90;
   /* Gradients */
-  --gradient-primary: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  --gradient-primary: linear-gradient(rgb(120, 87, 255), rgb(46, 43, 233));
   --gradient-transparent: linear-gradient(
     rgb(78, 33, 202),
     rgba(36, 33, 202, 0)
@@ -130,6 +130,19 @@ body {
     place-items: center;
   }
 }
+.flex-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.grid-section {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+}
+
 /* Abstracts */
 /* Components */
 /* Layouts *//*# sourceMappingURL=style.css.map */
