@@ -1,0 +1,54 @@
+/* Custom Properties */
+:root {
+  /* Primary Colors, one for fixed color and the other to change opacity dynamically */
+  --clr-primary-light-red: #ff5757;
+  --clr-primary-light-red-rgb: 255, 87, 87;
+
+  --clr-primary-orange-yellow: #ffb01f;
+  --clr-primary-orange-yellow-rgb: 255, 176, 31;
+
+  --clr-primary-green-teal: #00bd91;
+  --clr-primary-green-teal-rgb: 0, 189, 145;
+
+  --clr-primary-cobalt-blue: #1125d4;
+  --clr-primary-cobalt-blue-rgb: 17, 37, 212;
+
+  /* Secondary Colors, one for fixed color and the other to change opacity dynamically */
+  --clr-neutral-white: #ffffff;
+  --clr-neutral-white-rgb: 255, 255, 255;
+
+  --clr-neutral-pale-blue: #ebf1ff;
+  --clr-neutral-pale-blue-rgb: 235, 241, 255;
+
+  --clr-neutral-light-lavender: #c8c7ff;
+  --clr-neutral-light-lavender-rgb: 200, 199, 255;
+
+  --clr-neutral-dark-gray-blue: #303b5a;
+  --clr-neutral-dark-gray-blue-rgb: 48, 59, 90;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+  --gradient-transparent: linear-gradient(
+    rgb(78, 33, 202),
+    rgba(36, 33, 202, 0)
+  );
+
+  /* Typography */
+
+  /* Font Family */
+  --ff-default: "Hanken Grotesk", sans-serif;
+
+  /* Font Weight */
+  --fw-regular: 500;
+  --fw-bold: 700;
+  --fw-black: 800;
+
+  /* Font Sizes */
+  --fs-400: 1.125rem;
+  --fs-500: 1.25rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.75rem;
+  --fs-800: 2rem;
+  --fs-900: 5rem;
+}

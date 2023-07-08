@@ -1,1 +1,135 @@
-/*# sourceMappingURL=style.css.map */
+/* CSS Reset by Andy Bell (https://andy-bell.co.uk/a-modern-css-reset/) */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol, and li elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] ul,
+ol,
+li {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* Custom Properties */
+:root {
+  /* Primary Colors, one for fixed color and the other to change opacity dynamically */
+  --clr-primary-light-red: #ff5757;
+  --clr-primary-light-red-rgb: 255, 87, 87;
+  --clr-primary-orange-yellow: #ffb01f;
+  --clr-primary-orange-yellow-rgb: 255, 176, 31;
+  --clr-primary-green-teal: #00bd91;
+  --clr-primary-green-teal-rgb: 0, 189, 145;
+  --clr-primary-cobalt-blue: #1125d4;
+  --clr-primary-cobalt-blue-rgb: 17, 37, 212;
+  /* Secondary Colors, one for fixed color and the other to change opacity dynamically */
+  --clr-neutral-white: #ffffff;
+  --clr-neutral-white-rgb: 255, 255, 255;
+  --clr-neutral-pale-blue: #ebf1ff;
+  --clr-neutral-pale-blue-rgb: 235, 241, 255;
+  --clr-neutral-light-lavender: #c8c7ff;
+  --clr-neutral-light-lavender-rgb: 200, 199, 255;
+  --clr-neutral-dark-gray-blue: #303b5a;
+  --clr-neutral-dark-gray-blue-rgb: 48, 59, 90;
+  /* Gradients */
+  --gradient-primary: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  --gradient-transparent: linear-gradient(
+    rgb(78, 33, 202),
+    rgba(36, 33, 202, 0)
+  );
+  /* Typography */
+  /* Font Family */
+  --ff-default: "Hanken Grotesk", sans-serif;
+  /* Font Weight */
+  --fw-regular: 500;
+  --fw-bold: 700;
+  --fw-black: 800;
+  /* Font Sizes */
+  --fs-400: 1.125rem;
+  --fs-500: 1.25rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.75rem;
+  --fs-800: 2rem;
+  --fs-900: 5rem;
+}
+
+body {
+  color: var(--clr-neutral-dark-gray-blue);
+  font-family: var(--ff-default);
+  font-size: var(--fs-400);
+}
+
+@media screen and (min-width: 37.5rem) {
+  body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+}
+/* Abstracts */
+/* Components */
+/* Layouts *//*# sourceMappingURL=style.css.map */
