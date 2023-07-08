@@ -117,12 +117,14 @@ select {
   --fs-900: 5rem;
 }
 
+/* General Styling */
 body {
   color: var(--clr-neutral-dark-gray-blue);
   font-family: var(--ff-default);
   font-size: var(--fs-400);
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5rem) {
   body {
     min-height: 100vh;
@@ -130,6 +132,17 @@ body {
     place-items: center;
   }
 }
+/* Styling of all elements sharing the same class */
+.result-summary {
+  --padding: 2.5rem;
+  --border-radius: 2rem;
+}
+
+.section-title {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-600);
+}
+
 .flex-group {
   display: flex;
   flex-wrap: wrap;
