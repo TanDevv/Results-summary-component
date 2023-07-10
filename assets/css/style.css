@@ -267,6 +267,18 @@ body {
   color: var(--clr-neutral-dark-gray-blue);
 }
 
+.attribution {
+  font-size: 0.8rem;
+  margin: 0.1rem 1rem 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 37.5em) {
+  .attribution {
+    font-size: var(--fs-400);
+    margin: 0;
+  }
+}
 /* Abstracts */
 /* Components */
 /* Layouts *//*# sourceMappingURL=style.css.map */
