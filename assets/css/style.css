@@ -115,7 +115,7 @@ select {
   --fs-700: 1.75rem;
   --fs-800: 2rem;
   --fs-850: 3.5rem;
-  --fs-900: 5rem;
+  --fs-900: 4rem;
 }
 
 .button {
@@ -145,23 +145,37 @@ body {
     min-height: 100vh;
     display: grid;
     place-items: center;
+    grid-template-rows: 1fr;
   }
 }
 /* Styling of all elements sharing the same class */
+/* Main Container Styling */
 .result-summary {
-  --padding: 1.5rem;
+  --padding: 2rem;
   --border-radius: 2rem;
   display: grid;
   max-width: 46rem;
 }
 
+@media screen and (min-width: 37.5em) {
+  .result-summary {
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(149, 157, 165, 0.2) 10px 15px 24px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+}
 /* Your Result styling */
 .section-title {
   font-weight: var(--fw-bold);
   font-size: var(--fs-500);
-  margin-bottom: 0.5rem;
 }
 
+@media screen and (min-width: 37.5em) {
+  .section-title {
+    font-size: var(--fs-600);
+  }
+}
 /* Styling for children in summary item containers */
 .flex-group {
   display: flex;
@@ -209,12 +223,25 @@ body {
   line-height: 1;
 }
 
+@media screen and (min-width: 37.5rem) {
+  .results-score {
+    width: 12rem;
+  }
+  .results-score span {
+    font-size: var(--fs-900);
+  }
+}
 .results-rank {
   color: var(--clr-neutral-white);
   font-weight: var(--fw-black);
   font-size: var(--fs-600);
 }
 
+@media screen and (min-width: 37.5rem) {
+  .results-rank {
+    font-size: var(--fs-700);
+  }
+}
 /* Summary section */
 .summary {
   padding: var(--padding);
@@ -234,6 +261,7 @@ body {
 .summary-item--title {
   color: rgb(var(--item-color));
   font-weight: var(--fw-bold);
+  font-size: var(--fs-500);
 }
 
 /* Custom Property to add individual background color to each summary item */

@@ -31,8 +31,24 @@
   line-height: 1;
 }
 
+@media screen and (min-width: 37.5rem) {
+  .results-score {
+    width: 12rem;
+  }
+
+  .results-score span {
+    font-size: var(--fs-900);
+  }
+}
+
 .results-rank {
   color: var(--clr-neutral-white);
   font-weight: var(--fw-black);
   font-size: var(--fs-600);
+}
+
+@media screen and (min-width: 37.5rem) {
+  .results-rank {
+    font-size: var(--fs-700);
+  }
 }
