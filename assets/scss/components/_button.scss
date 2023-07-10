@@ -1,3 +1,4 @@
+/* Button Styling */
 .button {
     background-color: var(--clr-neutral-dark-gray-blue);
     color: var(--clr-neutral-white);
@@ -8,6 +9,7 @@
     cursor: pointer;
     margin-top: 0.5rem;
 
+    /* Button hovering and focused effect for sr */
     &:hover, :focus-visible {
         background: var(--gradient-primary);
     }

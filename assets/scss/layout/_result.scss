@@ -6,6 +6,7 @@
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5em) {
   .results {
     border-radius: var(--border-radius);
@@ -31,6 +32,7 @@
   line-height: 1;
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5rem) {
   .results-score {
     width: 12rem;
@@ -47,6 +49,7 @@
   font-size: var(--fs-600);
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5rem) {
   .results-rank {
     font-size: var(--fs-700);

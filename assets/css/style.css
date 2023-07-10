@@ -118,6 +118,7 @@ select {
   --fs-900: 4rem;
 }
 
+/* Button Styling */
 .button {
   background-color: var(--clr-neutral-dark-gray-blue);
   color: var(--clr-neutral-white);
@@ -127,6 +128,7 @@ select {
   border-radius: 100vw;
   cursor: pointer;
   margin-top: 0.5rem;
+  /* Button hovering and focused effect for sr */
 }
 .button:hover, .button :focus-visible {
   background: var(--gradient-primary);
@@ -157,6 +159,7 @@ body {
   max-width: 46rem;
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5em) {
   .result-summary {
     grid-template-columns: 1fr 1fr;
@@ -171,6 +174,7 @@ body {
   font-size: var(--fs-500);
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5em) {
   .section-title {
     font-size: var(--fs-600);
@@ -199,6 +203,7 @@ body {
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5em) {
   .results {
     border-radius: var(--border-radius);
@@ -223,6 +228,7 @@ body {
   line-height: 1;
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5rem) {
   .results-score {
     width: 12rem;
@@ -237,6 +243,7 @@ body {
   font-size: var(--fs-600);
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5rem) {
   .results-rank {
     font-size: var(--fs-700);
@@ -301,6 +308,7 @@ body {
   text-align: center;
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5em) {
   .attribution {
     font-size: var(--fs-400);

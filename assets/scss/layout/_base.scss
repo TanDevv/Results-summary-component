@@ -25,6 +25,7 @@ body {
   max-width: 46rem;
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5em) {
   .result-summary {
     grid-template-columns: 1fr 1fr;
@@ -40,6 +41,7 @@ body {
   font-size: var(--fs-500);
 }
 
+/* Media Query for Desktop Responsiveness */
 @media screen and (min-width: 37.5em) {
   .section-title {
     font-size: var(--fs-600);
