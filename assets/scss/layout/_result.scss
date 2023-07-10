@@ -1,0 +1,38 @@
+.results {
+  background: var(--gradient-primary);
+  color: rgba(var(--clr-neutral-white-rgb), 0.7);
+  text-align: center;
+  padding: var(--padding) calc(var(--padding) * 1.5);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+@media screen and (min-width: 37.5em) {
+  .results {
+    border-radius: var(--border-radius);
+  }
+}
+
+.results-score {
+  background: var(--gradient-transparent);
+  color: rgba(var(--clr-neutral-white-rgb), 0.5);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  width: 9rem;
+  margin-inline: auto;
+}
+
+.results-score span {
+  color: var(--clr-neutral-white);
+  font-size: var(--fs-850);
+  font-weight: var(--fw-black);
+  display: block;
+  line-height: 1;
+}
+
+.results-rank {
+  color: var(--clr-neutral-white);
+  font-weight: var(--fw-black);
+  font-size: var(--fs-600);
+}

@@ -114,6 +114,7 @@ select {
   --fs-600: 1.5rem;
   --fs-700: 1.75rem;
   --fs-800: 2rem;
+  --fs-850: 3.5rem;
   --fs-900: 5rem;
 }
 
@@ -125,7 +126,7 @@ body {
 }
 
 /* Media Query for Desktop Responsiveness */
-@media screen and (min-width: 37.5rem) {
+@media screen and (min-width: 37.5em) {
   body {
     min-height: 100vh;
     display: grid;
@@ -134,13 +135,16 @@ body {
 }
 /* Styling of all elements sharing the same class */
 .result-summary {
-  --padding: 2.5rem;
+  --padding: 1.5rem;
   --border-radius: 2rem;
+  display: grid;
+  max-width: 46rem;
 }
 
 .section-title {
   font-weight: var(--fw-bold);
-  font-size: var(--fs-600);
+  font-size: var(--fs-500);
+  margin-bottom: 0.5rem;
 }
 
 .flex-group {
@@ -153,7 +157,45 @@ body {
 .grid-section {
   display: grid;
   align-content: start;
-  gap: 1rem;
+  gap: 0.5rem;
+}
+
+.results {
+  background: var(--gradient-primary);
+  color: rgba(var(--clr-neutral-white-rgb), 0.7);
+  text-align: center;
+  padding: var(--padding) calc(var(--padding) * 1.5);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+@media screen and (min-width: 37.5em) {
+  .results {
+    border-radius: var(--border-radius);
+  }
+}
+.results-score {
+  background: var(--gradient-transparent);
+  color: rgba(var(--clr-neutral-white-rgb), 0.5);
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  width: 9rem;
+  margin-inline: auto;
+}
+
+.results-score span {
+  color: var(--clr-neutral-white);
+  font-size: var(--fs-850);
+  font-weight: var(--fw-black);
+  display: block;
+  line-height: 1;
+}
+
+.results-rank {
+  color: var(--clr-neutral-white);
+  font-weight: var(--fw-black);
+  font-size: var(--fs-600);
 }
 
 /* Abstracts */
