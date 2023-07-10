@@ -141,12 +141,14 @@ body {
   max-width: 46rem;
 }
 
+/* Your Result styling */
 .section-title {
   font-weight: var(--fw-bold);
   font-size: var(--fs-500);
   margin-bottom: 0.5rem;
 }
 
+/* Styling for children in summary item containers */
 .flex-group {
   display: flex;
   flex-wrap: wrap;
@@ -154,10 +156,11 @@ body {
   gap: 0.5rem;
 }
 
+/* Styling for elements classed with same title */
 .grid-section {
   display: grid;
   align-content: start;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .results {
@@ -196,6 +199,58 @@ body {
   color: var(--clr-neutral-white);
   font-weight: var(--fw-black);
   font-size: var(--fs-600);
+}
+
+/* Summary section */
+.summary {
+  padding: var(--padding);
+}
+
+/* Summary Items */
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(var(--item-color), 0.1);
+}
+
+/* Summary h2 */
+.summary-item--title {
+  color: rgb(var(--item-color));
+  font-weight: var(--fw-bold);
+}
+
+/* Custom Property to add individual background color to each summary item */
+/* Reaction */
+.accent-1 {
+  --item-color: var(--clr-primary-light-red-rgb);
+}
+
+/* Memory */
+.accent-2 {
+  --item-color: var(--clr-primary-orange-yellow-rgb);
+}
+
+/* Verbal */
+.accent-3 {
+  --item-color: var(--clr-primary-green-teal-rgb);
+}
+
+/* Visual */
+.accent-4 {
+  --item-color: var(--clr-primary-cobalt-blue-rgb);
+}
+
+/* Scores in summary container */
+.summary-item--score {
+  font-weight: var(--fw-black);
+  color: rgba(var(--clr-neutral-dark-gray-blue-rgb), 0.5);
+  /* Left side of score styling */
+}
+.summary-item--score span {
+  color: var(--clr-neutral-dark-gray-blue);
 }
 
 /* Abstracts */

@@ -22,12 +22,14 @@ body {
   max-width: 46rem;
 }
 
+/* Your Result styling */
 .section-title {
   font-weight: var(--fw-bold);
   font-size: var(--fs-500);
   margin-bottom: 0.5rem;
 }
 
+/* Styling for children in summary item containers */
 .flex-group {
   display: flex;
   flex-wrap: wrap;
@@ -35,8 +37,9 @@ body {
   gap: 0.5rem;
 }
 
+/* Styling for elements classed with same title */
 .grid-section {
   display: grid;
   align-content: start;
-  gap: 0.5rem;
+  gap: 1rem;
 }
