@@ -130,7 +130,8 @@ select {
   margin-top: 0.5rem;
   /* Button hovering and focused effect for sr */
 }
-.button:hover, .button :focus-visible {
+.button:hover,
+.button :focus-visible {
   background: var(--gradient-primary);
 }
 

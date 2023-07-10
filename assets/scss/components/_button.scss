@@ -1,16 +1,17 @@
 /* Button Styling */
 .button {
-    background-color: var(--clr-neutral-dark-gray-blue);
-    color: var(--clr-neutral-white);
-    line-height: 1.4;
-    padding: 1rem 2rem;
-    border: 0;
-    border-radius: 100vw;
-    cursor: pointer;
-    margin-top: 0.5rem;
+  background-color: var(--clr-neutral-dark-gray-blue);
+  color: var(--clr-neutral-white);
+  line-height: 1.4;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 100vw;
+  cursor: pointer;
+  margin-top: 0.5rem;
 
-    /* Button hovering and focused effect for sr */
-    &:hover, :focus-visible {
-        background: var(--gradient-primary);
-    }
+  /* Button hovering and focused effect for sr */
+  &:hover,
+  :focus-visible {
+    background: var(--gradient-primary);
+  }
 }
