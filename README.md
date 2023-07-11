@@ -11,7 +11,7 @@
     <br />
     <a href="https://gleeful-faloodeh-ca8211.netlify.app/">View Demo</a>
     ·
-    <a href="my solution link here" target="_blank">Leave a comment</a>
+    <a href="https://www.frontendmentor.io/solutions/responsive-results-summary-component-scss-PHxkt1lu6t" target="_blank">Leave a comment</a> 
   </p>
 </div>
 
@@ -41,7 +41,7 @@ This is a solution to the [Results Summary Component](https://www.frontendmentor
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [solution URL](url here too)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-results-summary-component-scss-PHxkt1lu6t](https://www.frontendmentor.io/solutions/responsive-results-summary-component-scss-PHxkt1lu6t)
 - Live Site URL: [https://gleeful-faloodeh-ca8211.netlify.app/](https://gleeful-faloodeh-ca8211.netlify.app/)
 
 <br>
