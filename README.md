@@ -9,7 +9,7 @@
     <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV"><strong>Results Summary Component</strong></a>
     <br />
     <br />
-    <a href="live website here">View Demo</a>
+    <a href="https://gleeful-faloodeh-ca8211.netlify.app/">View Demo</a>
     ·
     <a href="my solution link here" target="_blank">Leave a comment</a>
   </p>
@@ -18,11 +18,11 @@
 <!-- Badges -->
 <div align="center">
   <!-- Profile -->
-  <a href="https://www.frontendmentor.io/profile/YorkieLT">
-    <img src="https://img.shields.io/badge/PROFILE-LIAM_|_YORKIELT-ffcc99?style=for-the-badge&logo=frontendmentorhttps://www.frontendmentor.io/profile/YorkieLT" alt="YorkieLT Profile">
+  <a href="https://www.frontendmentor.io/profile/TanDevv">
+  <img src="https://img.shields.io/badge/LIAM_%7C_Tandev-FFE5B4?style=for-the-badge&logo=Frontend+Mentor&logoColor=%233F54A3" alt="Tandev Profile">
   </a>
   <!-- Status -->
-    <a href="#">
+    <a href="#">    
     <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Completed">
   </a>
 
@@ -32,17 +32,17 @@
 
 <div align="center">
 
-![](pictrure files here)
-![](dpictrure files here)
+![](assets/images/desktop.png)
+![](assets/images/mobile.png)
 
 </div>
 
-This is a solution to the [challenge title here](challenge link here). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Results Summary Component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <h2 align="center">Links</h2>
 
 - Solution URL: [solution URL](url here too)
-- Live Site URL: [live site url](url here too)
+- Live Site URL: [https://gleeful-faloodeh-ca8211.netlify.app/](https://gleeful-faloodeh-ca8211.netlify.app/)
 
 <br>
 
@@ -52,7 +52,6 @@ This is a solution to the [challenge title here](challenge link here). Frontend 
   - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -62,28 +61,30 @@ This is a solution to the [challenge title here](challenge link here). Frontend 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 ## My process
 
-I will start with the style-guide.md file. Then I will try to gauge what fonts were used in which areas awhile making my --custom properties.
+I will start with the style-guide.md file. Then I will try to gauge what fonts and units were used in which areas awhile making my custom properties.
+
+I did not run into any issues with this project, I did find a bit of trouble towards the end with my results page having a bit too much space at the bottom above the text, I thought as I had made the rest of the project the sizing would change by itself but it did not, so I just used some margin-top. If somebody perhaps could see why that happened and what I could have done differently I would not mind hearing it.
+
+This was also my first project in which I implemeneted SCSS (or SASS) in my work, I did a bit of research in the best layouts to use and I so far have enjoyed using it more and more, it feels like it takes a bit more time for me to set up everything compared to just using pure CSS but I enjoy the organization :)
 
 ### Built with
 
 <!-- Badges -->
 
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/SCSS-blue?style=for-the-badge&logo=Sass)
+![](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=white)
 ![](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code)
 
 - Semantic HTML5 markup
-- Pure CSS3
-- Visual Studio Code (Editor)
-
-## What I learned
-
-- type commands here
-- type commands here
+- [SCSS (Sass)](https://sass-lang.com/)
+- [Prettier (CSS Formatter)](https://prettier.io/)
+- [Visual Studio Code (Editor)](https://code.visualstudio.com/)
 
 ## Author
 
-- Frontend Mentor - [@YorkieLT](https://www.frontendmentor.io/profile/YorkieLT)
+- Frontend Mentor - [@TanDevv](https://www.frontendmentor.io/profile/TanDevv)
