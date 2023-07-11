@@ -11,7 +11,7 @@
     <br />
     <a href="https://gleeful-faloodeh-ca8211.netlify.app/">View Demo</a>
     ·
-    <a href="my solution link here" target="_blank">Leave a comment</a>
+    <a href="https://www.frontendmentor.io/solutions/responsive-results-summary-component-scss-PHxkt1lu6t" target="_blank">Leave a comment</a> 
   </p>
 </div>
 
@@ -41,7 +41,7 @@ This is a solution to the [Results Summary Component](https://www.frontendmentor
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [solution URL](url here too)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-results-summary-component-scss-PHxkt1lu6t](https://www.frontendmentor.io/solutions/responsive-results-summary-component-scss-PHxkt1lu6t)
 - Live Site URL: [https://gleeful-faloodeh-ca8211.netlify.app/](https://gleeful-faloodeh-ca8211.netlify.app/)
 
 <br>
@@ -70,6 +70,8 @@ I will start with the style-guide.md file. Then I will try to gauge what fonts a
 I did not run into any issues with this project, I did find a bit of trouble towards the end with my results page having a bit too much space at the bottom above the text, I thought as I had made the rest of the project the sizing would change by itself but it did not, so I just used some margin-top.
 
 If somebody perhaps could see why that happened and what I could have done differently I would not mind hearing it.
+
+This was also my first project in which I implemented SCSS (or SASS) in my work, I did a bit of research in the best layouts to use and I so far have enjoyed using it more and more, it feels like it takes a bit more time for me to set up everything compared to just using pure CSS but I enjoy the organization :)
 
 ![](/design/border-example.png)
 My one issue was the tiny corner borders in the summary items, after some research I could not find a definitive way of using them that felt right. The idea of having to add 3-4 different divs to each summary item to make a border seemed a lot of pointless work, obviously there is a way to do it as the example photo shows so if anyone knew how to do them I would really like to know.
