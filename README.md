@@ -71,7 +71,9 @@ I did not run into any issues with this project, I did find a bit of trouble tow
 
 If somebody perhaps could see why that happened and what I could have done differently I would not mind hearing it.
 
-![](/design/border-example.png)
+<div>
+  ![](/design/border-example.png)
+</div>
 My one issue was the tiny corner borders in the summary items, after some research I could not find a definitive way of using them that felt right. The idea of having to add 3-4 different divs to each summary item to make a border seemed a lot of pointless work, obviously there is a way to do it as the example photo shows so if anyone knew how to do them I would really like to know.
 
 This was also my first project in which I implemented SCSS (or SASS) in my work, I did a bit of research in the best layouts to use and I so far have enjoyed using it more and more, it feels like it takes a bit more time for me to set up everything compared to just using pure CSS but I enjoy the organization, if anybody more tuned to SASS had any tips for me or how I could use it better I would appreciate it :)
