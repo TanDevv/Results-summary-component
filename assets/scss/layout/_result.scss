@@ -1,8 +1,9 @@
+/* Results Section */
 .results {
   background: var(--gradient-primary);
   color: rgba(var(--clr-neutral-white-rgb), 0.7);
   text-align: center;
-  padding: var(--padding) calc(var(--padding) * 1.5);
+  padding: var(--padding) calc(var(--padding) * 1.6);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
@@ -13,6 +14,7 @@
   }
 }
 
+/* 76 of 100 Section */
 .results-score {
   background: var(--gradient-transparent);
   color: rgba(var(--clr-neutral-white-rgb), 0.5);
@@ -36,6 +38,7 @@
 @media screen and (min-width: 37.5rem) {
   .results-score {
     width: 12rem;
+    margin-top: 1rem;
   }
 
   .results-score span {
@@ -43,6 +46,7 @@
   }
 }
 
+/* Results text */
 .results-rank {
   color: var(--clr-neutral-white);
   font-weight: var(--fw-black);
