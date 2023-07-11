@@ -69,7 +69,7 @@ I will start with the style-guide.md file. Then I will try to gauge what fonts a
 
 I did not run into any issues with this project, I did find a bit of trouble towards the end with my results page having a bit too much space at the bottom above the text, I thought as I had made the rest of the project the sizing would change by itself but it did not, so I just used some margin-top. If somebody perhaps could see why that happened and what I could have done differently I would not mind hearing it.
 
-This was also my first project in which I implemeneted SCSS (or SASS) in my work, I did a bit of research in the best layouts to use and I so far have enjoyed using it more and more, it feels like it takes a bit more time for me to set up everything compared to just using pure CSS but I enjoy the organization :)
+This was also my first project in which I implemented SCSS (or SASS) in my work, I did a bit of research in the best layouts to use and I so far have enjoyed using it more and more, it feels like it takes a bit more time for me to set up everything compared to just using pure CSS but I enjoy the organization :)
 
 ### Built with
 
